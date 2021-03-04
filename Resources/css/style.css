@@ -1,0 +1,53 @@
+body{
+   background-color: cadetblue;
+    color:#ffffff; /*Any second color will be the color applied to the text*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    line-height: 3px;
+    margin: 25px;
+    padding: 25px;
+    
+    
+ 
+    /*can import web font via link*/
+    
+    /*Alternatively for the font you can also just*/
+
+    font: large tahoma;
+    /*id should be unique while class can be used anywhere*/ 
+}
+
+/*id should be unique while class can be used anywhere*/ 
+/*if use container need to use percent*/
+/*Below is the id*/ 
+
+.box-1{
+    background-color: transparent;
+    color: white;
+    font-size: small;
+    margin: 25px ;
+    border:6px yellow dotted;
+    padding:15px;
+}
+
+/*if the id is * you actually set up default setting for the whole css*/ 
+
+.box-1 p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: justify;
+}
+
+ul{
+ padding-bottom: 5px;
+ padding-top: 5px;
+ border: solid  #333;
+
+}
+
+.button{
+background-color: green;
+border-radius: 25px;
+}
